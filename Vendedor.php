@@ -1,8 +1,9 @@
 <?php
-require 'humano.php';
+require_once 'Humano.php';
 class Vendedor extends Humano
 {
-    public $salario;
+    public string $cargo = "Vendedor";
+    public float $salario = 2981.86;
 
     function __construct($nome, $idade, $endereco, $contato)
     {
