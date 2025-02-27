@@ -56,8 +56,5 @@ function EchoProduto ($Produto) {
 function EchoVenda ($Vender) {
     echo  " produto " . $Vender->produto->produto. " vendedor " . $Vender->vendedor->nome . " quantidade " . 2 . " comprador " . $Vender->comprador->nome .PHP_EOL; 
 }
-EchoVenda ($Vender1);
-EchoProduto ($Produto1);
-EchoAnimal ($animal3);
-EchoFuncionario($funcionario2);
-EchoHumano($humano3);  
+
+
